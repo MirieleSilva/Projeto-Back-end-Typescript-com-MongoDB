@@ -22,27 +22,3 @@ Node 18+
 
 MongoDB local/Atlas
 
-
-## Endpoints
-
-# Perfumes
-
-POST /perfumes — criar
-
-GET /perfumes — listar
-
-GET /perfumes/:id — obter
-
-PUT /perfumes/:id — atualizar
-
-DELETE /perfumes/:id — excluir
-
-# Estoque
-
-PUT /estoque/:perfumeId — definir/atualizar quantidade
-
-GET /estoque/:perfumeId — obter quantidade
-
-GET /estoque — listar todos
-
-DELETE /estoque/:perfumeId — excluir registro
